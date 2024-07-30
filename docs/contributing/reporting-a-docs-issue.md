@@ -5,7 +5,7 @@ information on features, configurations, customizations, and much more. If you
 have found an inconsistency or see room for improvement, please follow this
 guide to submit an issue on our [issue tracker].
 
-[issue tracker]: https://github.com/ONSdigital/ons-mkdocs-theme/issues
+[issue tracker]: https://github.com/ONSdigital/ons_mkdocs_theme/issues
 
 ## Issue template
 

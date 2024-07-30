@@ -35,7 +35,7 @@ body:
         [our documentation](https://improved-barnacle-2kpo16w.pages.github.io/) that
         are relevant to the bug in order to show that you have consulted and
         thoroughly read it. Additionally, list links to possibly related open
-        and closed [issues](https://github.com/ONSdigital/ons-mkdocs-theme/issues)
+        and closed [issues](https://github.com/ONSdigital/ons_mkdocs_theme/issues)
         you encountered when searching our issue tracker.
         [More](https://improved-barnacle-2kpo16w.pages.github.io/contributing/reporting-a-bug/#related-links)
       value: |-
@@ -95,7 +95,7 @@ body:
           required: true
         - label: >-
             I have attached links to [the documentation](https://improved-barnacle-2kpo16w.pages.github.io/),
-            and possibly related [issues](https://github.com/ONSdigital/ons-mkdocs-theme/issues).
+            and possibly related [issues](https://github.com/ONSdigital/ons_mkdocs_theme/issues).
           required: true
         - label: >-
             I assure that I have [removed all customizations](https://improved-barnacle-2kpo16w.pages.github.io/contributing/reporting-a-bug/#remove-customizations)

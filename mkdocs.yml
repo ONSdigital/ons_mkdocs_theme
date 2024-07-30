@@ -1,11 +1,11 @@
 site_name: ONS Theme for MkDocs
 repo_name: ons-docs-site
-repo_url: https://github.com/ONSdigital/ons-docs-site
+repo_url: https://github.com/ONSdigital/ons_mkdocs_theme
 docs_dir: docs
 
 theme:
   name: material
-  custom_dir: ons-mkdocs-theme/ons_mkdocs_theme
+  custom_dir: ons_mkdocs_theme
   features:
     - announce.dismiss
     - content.action.edit
@@ -72,7 +72,7 @@ markdown_extensions:
 extra: 
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ONSdigital/ons-docs-site
+      link: https://github.com/ONSdigital/ons_mkdocs_theme
 
 copyright: |
   &copy;  <a href="https://www.ons.gov.uk">Office for National Statistics 2024</a> 

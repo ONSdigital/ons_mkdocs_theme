@@ -5,7 +5,7 @@ to improve. With a project of this size and complexity, bugs may occur. If you
 think you have discovered a bug, you can help us by submitting an issue in our
 public [issue tracker], following this guide.
 
-[issue tracker]: https://github.com/ONSdigital/ons-mkdocs-theme/issues
+[issue tracker]: https://github.com/ONSdigital/ons_mkdocs_theme/issues
 
 ### Remove customizations
 
