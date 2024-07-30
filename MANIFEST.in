@@ -1,1 +1,2 @@
 recursive-include ons_mkdocs_theme *.html *.css *.py *.js *.png *.svg *.jpg *.jpeg *.gif *.ico *.txt *.xml *.yml *.yaml *.json *.md *.rst *.toml *.ini *.conf *.ts
+include mkdocs.yml package-lock.json package.json
