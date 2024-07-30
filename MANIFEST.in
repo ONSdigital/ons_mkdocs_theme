@@ -1,0 +1,1 @@
+recursive-include ons_mkdocs_theme *.html *.css *.py *.js *.png *.svg *.ico *.txt

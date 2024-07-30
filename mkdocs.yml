@@ -1,0 +1,78 @@
+site_name: ONS Theme for MkDocs
+repo_name: ons-docs-site
+repo_url: https://github.com/ONSdigital/ons-docs-site
+docs_dir: docs
+
+theme:
+  name: material
+  custom_dir: ons-mkdocs-theme/ons_mkdocs_theme
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  language: en
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.ico
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - Installation: getting-started.md
+    - Creating your site: creating-your-site.md
+    - Publishing your site: publishing-your-site.md
+    - Customization: customization.md
+  - Contributing:
+    - Reporting a bug: contributing/reporting-a-bug.md
+    - Reporting a docs issue: contributing/reporting-a-docs-issue.md
+
+plugins:
+  - search:
+      enabled: true
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra: 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ONSdigital/ons-docs-site
+
+copyright: |
+  &copy;  <a href="https://www.ons.gov.uk">Office for National Statistics 2024</a> 
