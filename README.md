@@ -2,7 +2,7 @@
     <img src="ons_mkdocs_theme/assets/images/logo.svg" width="320px">
 </p>
 
-# :rocket: MkDocs ONS Theme
+## :rocket: MkDocs ONS Theme
 
 This is an Office for National Statistics (ONS) branded theme that can be used in conjunction with MkDocs.
 
@@ -10,22 +10,22 @@ The purpose of this theme is to give users a way of generating documentation tha
 
 This theme leans heavily on the Material for MkDocs that was created by Martin Donath. The original files can be accessed from [GitHub].
 
-# Documentation
+## :file_folder: Documentation
 
 You can access the [documentation] for this package and see the theme live.
 
-## Getting Started
+## :race_car: Getting Started
 
 ONS Theme for MkDocs is a powerful documentation framework on top of [MkDocs], a static site generator for project documentation. If you're familiar with Python, you can install ONS Theme for MkDocs with `pip`, the Python package manager.
 
-### Installation
+## :computer: Installation
 
 #### With PIP
 
 ONS Theme for MkDocs is published as a Python package and can be installed with `pip`, ideally by using a [virtual environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Open up a terminal and install ONS Theme for MkDocs with:
 
 ```py
-pip install ons-theme-for-mkdocs
+pip install ons_mkdocs_theme
 ```
 
 This will automatically install compatible versions of all dependencies: [MkDocs], [Markdown], [Pygments], and Python Markdown Extensions.
@@ -38,7 +38,7 @@ If you don't have prior experience with Python, we recommend reading [Using Pyth
 ONS Theme for MkDocs can be directly used from GitHub by cloning the repository into a subfolder of your project root.
 
 ```sh
-git clone https://github.com/ONSdigital/ons-theme-for-mkdocs
+git clone https://github.com/ONSdigital/ons_mkdocs_theme
 ```
 
 Next, install the theme and its dependencies with:

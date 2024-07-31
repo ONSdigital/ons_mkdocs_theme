@@ -17,7 +17,7 @@ This will create the following structure:
   └── mkdocs.yml
 ```
 
-[installed]: getting-started.md
+[installed]: index.md
 
 ## Configuration
 
