@@ -51,4 +51,4 @@ pip install -e ons-theme-for-mkdocs
 [GitHub]: https://github.com/squidfunk/mkdocs-material
 [Markdown]: https://www.markdownguide.org/getting-started/#:~:text=Markdown%20is%20a%20lightweight%20markup,than%20using%20a%20WYSIWYG%20editor.
 [Pygments]: https://pygments.org/
-[documentation]: https://didactic-dollop-wgj8yzk.pages.github.io/
+[documentation]: https://onsdigital.github.io/ons_mkdocs_theme/

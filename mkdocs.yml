@@ -29,7 +29,7 @@ theme:
 
 nav:
   - Getting started:
-    - Installation: index.md
+    - Home: index.md
     - Creating your site: creating-your-site.md
     - Publishing your site: publishing-your-site.md
     - Customization: customization.md
