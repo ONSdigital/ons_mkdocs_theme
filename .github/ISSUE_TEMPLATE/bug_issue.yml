@@ -11,7 +11,7 @@ body:
         you want to report, helping us to understand what you are working on and
         what you are trying to achieve. If the context is not relevant, you can
         leave this field empty.
-        [More](https://didactic-dollop-wgj8yzk.pages.github.io/contributing/reporting-a-bug/#context)
+        [More](https://onsdigital.github.io/ons_mkdocs_theme/contributing/reporting-a-bug/#context)
 
   - type: textarea
     id: description
@@ -22,7 +22,7 @@ body:
         for MkDocs does not behave as you would expect it to. Be as specific as
         possible. If you have found a workaround or a fix for the problem,
         please let us maintainers (and all other users) know.
-        [More](https://didactic-dollop-wgj8yzk.pages.github.io/contributing/reporting-a-bug/#bug-description)
+        [More](https://onsdigital.github.io/ons_mkdocs_theme/contributing/reporting-a-bug/#bug-description)
     validations:
       required: true
 
@@ -32,14 +32,14 @@ body:
       label: Related links
       description: >-
         Please list all links to the sections of
-        [our documentation](https://didactic-dollop-wgj8yzk.pages.github.io/) that
+        [our documentation](https://onsdigital.github.io/ons_mkdocs_theme/) that
         are relevant to the bug in order to show that you have consulted and
         thoroughly read it. Additionally, list links to possibly related open
         and closed [issues](https://github.com/ONSdigital/ons_mkdocs_theme/issues)
         you encountered when searching our issue tracker.
-        [More](https://didactic-dollop-wgj8yzk.pages.github.io/contributing/reporting-a-bug/#related-links)
+        [More](https://onsdigital.github.io/ons_mkdocs_theme/contributing/reporting-a-bug/#related-links)
       value: |-
-        - [Reporting a bug](https://didactic-dollop-wgj8yzk.pages.github.io/contributing/reporting-a-bug/)
+        - [Reporting a bug](https://onsdigital.github.io/ons_mkdocs_theme/contributing/reporting-a-bug/)
         -
     validations:
       required: true
@@ -53,7 +53,7 @@ body:
         through the required steps, helping us to recreate the problem using the
         minimal reproduction you provided. Be as specific as possible and as
         verbose as necessary – try not to leave anything out.
-        [More](https://didactic-dollop-wgj8yzk.pages.github.io/contributing/reporting-a-bug/#steps-to-reproduce)
+        [More](https://onsdigital.github.io/ons_mkdocs_theme/contributing/reporting-a-bug/#steps-to-reproduce)
       placeholder: |-
         1. ...
         2. ...
@@ -70,7 +70,7 @@ body:
         please select them from the dropdown below. If your browser is not
         listed or the version is relevant, you may select _Other_ and provide
         more details in the field above.
-        [More](https://didactic-dollop-wgj8yzk.pages.github.io/contributing/reporting-a-bug/#browser)
+        [More](https://onsdigital.github.io/ons_mkdocs_theme/contributing/reporting-a-bug/#browser)
       multiple: true
       options:
         - Chrome
@@ -91,13 +91,13 @@ body:
         box. This will save the maintainers and you valuable time.
       options:
         - label: >-
-            I have read and followed the [bug reporting guidelines](https://didactic-dollop-wgj8yzk.pages.github.io/contributing/reporting-a-bug/).
+            I have read and followed the [bug reporting guidelines](https://onsdigital.github.io/ons_mkdocs_theme/contributing/reporting-a-bug/).
           required: true
         - label: >-
-            I have attached links to [the documentation](https://didactic-dollop-wgj8yzk.pages.github.io/),
+            I have attached links to [the documentation](https://onsdigital.github.io/ons_mkdocs_theme/),
             and possibly related [issues](https://github.com/ONSdigital/ons_mkdocs_theme/issues).
           required: true
         - label: >-
-            I assure that I have [removed all customizations](https://didactic-dollop-wgj8yzk.pages.github.io/contributing/reporting-a-bug/#remove-customizations)
+            I assure that I have [removed all customizations](https://onsdigital.github.io/ons_mkdocs_theme/contributing/reporting-a-bug/#remove-customizations)
             before submitting this bug report.
           required: true
