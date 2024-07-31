@@ -14,7 +14,7 @@ This theme leans heavily on the Material for MkDocs that was created by Martin D
 
 You can access the [documentation] for this package and see the theme live.
 
-## :race_car: Getting Started
+## Getting Started
 
 ONS Theme for MkDocs is a powerful documentation framework on top of [MkDocs], a static site generator for project documentation. If you're familiar with Python, you can install ONS Theme for MkDocs with `pip`, the Python package manager.
 
