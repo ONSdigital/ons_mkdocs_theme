@@ -10,11 +10,11 @@ mkdocs new .
 
 This will create the following structure:
 
-```
- .
- ├─ docs/
- │  └─ index.md
- └─ mkdocs.yml
+```bash
+  .
+  ├── docs/
+  │ └── index.md
+  └── mkdocs.yml
 ```
 
 [installed]: getting-started.md
@@ -25,11 +25,11 @@ This will create the following structure:
 
 Simply set the `site_name` and add the following lines to `mkdocs.yml` to enable the theme:
 
-```
-  site_name: My site
-  site_url: https://mydomain.org/mysite
-  theme:
-    name: ons-theme-for-mkdocs
+```yaml
+site_name: My site
+site_url: https://mydomain.org/mysite
+theme:
+  name: ons_mkdocs_theme
 ```
 
 ## Previewing as you write
@@ -38,20 +38,20 @@ MkDocs includes a live preview server, so you can preview your changes as you
 write your documentation. The server will automatically rebuild the site upon
 saving. Start it with:
 
-```
+```python
 mkdocs serve
 ```
+
+Point your browser to [localhost:8000][live preview] and you should see the current version of the site:
 
 1.  If you have a large documentation project, it might take minutes until
     MkDocs has rebuilt all pages for you to preview. If you're only interested
     in the current page, the [`--dirtyreload`][--dirtyreload] flag will make
     rebuilds much faster:
 
-    ```
-    mkdocs serve --dirtyreload
-    ```
-
-Point your browser to [localhost:8000][live preview] and you should see the current version of the site:
+```python
+mkdocs serve --dirtyreload
+```
 
 [--dirtyreload]: https://www.mkdocs.org/about/release-notes/#support-for-dirty-builds-990
 [live preview]: http://localhost:8000
@@ -61,9 +61,11 @@ Point your browser to [localhost:8000][live preview] and you should see the curr
 When you're finished editing, you can build a static site from your Markdown
 files with:
 
-```
+```python
 mkdocs build
 ```
+
+This will create a new directory in your project root folder called `site`.
 
 The contents of this directory make up your project documentation. There's no
 need for operating a database or server, as it is completely self-contained.

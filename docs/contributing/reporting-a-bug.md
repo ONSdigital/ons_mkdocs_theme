@@ -9,8 +9,8 @@ public [issue tracker], following this guide.
 
 ### Remove customizations
 
-If you're using [customizations] like [additional CSS], [JavaScript], or
-[theme extension], please remove them from `mkdocs.yml` before reporting a bug.
+If you're using [customizations] like [additional CSS][additional CSS] or
+[theme extension][theme extension], please remove them from `mkdocs.yml` before reporting a bug.
 We can't offer official support for bugs that might hide in your overrides, so
 make sure to omit the following settings from `mkdocs.yml`:
 
@@ -49,7 +49,7 @@ and closed right away with a link to the relevant documentation section or
 another already reported or closed issue or discussion, you can save time for
 us and yourself by doing some research:
 
-1.  [Search our documentation] and look for the relevant sections that could
+1.  [Search our documentation][Search our documentation] and look for the relevant sections that could
     be related to your problem. If found, make sure that you configured
     everything correctly.[^1]
 
@@ -207,7 +207,7 @@ five-year-old, and focus on continuity.
 If you're reporting a bug that only occurs in one or more _specific_ browsers,
 we need to know which browsers are affected. This field is optional, as it is
 only relevant when the bug you are reporting does not involve a crash when
-[previewing] or [building] your site.
+previewing or building your site.
 
 ---
 
@@ -219,9 +219,6 @@ the bug. If it's gone, it's caused by an extension.
 > Since now, almost all browsers are evergreen, we usually don't need to know the
 > version in which it occurs, but we might ask for it later. When in doubt, add
 > the browser version as the first step in the field above.
-
-[previewing]: http://localhost:8000/mkdocs-material/creating-your-site/#previewing-as-you-write
-[building]: http://localhost:8000/mkdocs-material/creating-your-site/#building-your-site
 
 ### Checklist
 

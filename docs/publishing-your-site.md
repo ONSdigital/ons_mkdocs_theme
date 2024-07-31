@@ -12,8 +12,6 @@ charge and pretty easy to set up.
 
 [GitHub Pages]: https://pages.github.com/
 
-### with GitHub Actions
-
 Using [GitHub Actions] you can automate the deployment of your project
 documentation. At the root of your repository, create a new GitHub Actions
 workflow, e.g. `.github/workflows/ci.yml`, and copy and paste the following
@@ -71,23 +69,6 @@ Page is set to `gh-pages`.
 [publishing source branch]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 [manual page]: https://man7.org/linux/man-pages/man1/date.1.html
 
-### with MkDocs
-
-If you prefer to deploy your project documentation manually, you can just invoke
-the following command from the directory containing the `mkdocs.yml` file:
-
-```
-mkdocs gh-deploy --force
-```
-
-This will build your documentation and deploy it to a branch
-`gh-pages` in your repository. See [this overview in the MkDocs
-documentation] for more information. For a description of the
-arguments, see [the documentation for the command].
-
-[this overview in the MkDocs documentation]: https://www.mkdocs.org/user-guide/deploying-your-docs/#project-pages
-[the documentation for the command]: https://www.mkdocs.org/user-guide/cli/#mkdocs-gh-deploy
-
 ## GitLab Pages
 
 If you're hosting your code on GitLab, deploying to [GitLab Pages] can be done
@@ -112,6 +93,22 @@ pages:
 Now, when a new commit is pushed to the [default branch], the static site is automatically built and deployed. Commit and push
 the file to your repository to see the workflow in action.
 
+### with MkDocs
+
+If you prefer to deploy your project documentation manually, you can just invoke
+the following command from the directory containing the `mkdocs.yml` file:
+
+```
+mkdocs gh-deploy --force
+```
+
+This will build your documentation and deploy it to a branch
+`gh-pages` in your repository. See [this overview in the MkDocs
+documentation] for more information. For a description of the
+arguments, see [the documentation for the command].
+
+[this overview in the MkDocs documentation]: https://www.mkdocs.org/user-guide/deploying-your-docs/#project-pages
+[the documentation for the command]: https://www.mkdocs.org/user-guide/cli/#mkdocs-gh-deploy
 [GitLab Pages]: https://gitlab.com/pages
 [GitLab CI]: https://docs.gitlab.com/ee/ci/
 [masked custom variables]: https://docs.gitlab.com/ee/ci/variables/#create-a-custom-variable-in-the-ui

@@ -1,8 +1,6 @@
 # Documentation issues
 
-Our documentation is composed of more than 80 pages and includes extensive
-information on features, configurations, customizations, and much more. If you
-have found an inconsistency or see room for improvement, please follow this
+If you have found an inconsistency or see room for improvement, please follow this
 guide to submit an issue on our [issue tracker].
 
 [issue tracker]: https://github.com/ONSdigital/ons_mkdocs_theme/issues
@@ -16,8 +14,8 @@ part of the issue:
 
 - [Title]
 - [Description]
-- [Related links]
-- [Proposed change] <small>optional</small>
+- [Related links][Related links]
+- [Proposed change][Propose change]
 - [Checklist]
 
   [Title]: #title

@@ -28,9 +28,8 @@ theme:
   favicon: assets/images/favicon.ico
 
 nav:
-  - Home: index.md
   - Getting started:
-    - Installation: getting-started.md
+    - Installation: index.md
     - Creating your site: creating-your-site.md
     - Publishing your site: publishing-your-site.md
     - Customization: customization.md
@@ -75,4 +74,8 @@ extra:
       link: https://github.com/ONSdigital/ons_mkdocs_theme
 
 copyright: |
-  &copy;  <a href="https://www.ons.gov.uk">Office for National Statistics 2024</a> 
+  &copy;  <a href="https://www.ons.gov.uk">Office for National Statistics 2024</a>
+
+watch:
+  - docs/
+  - ons_mkdocs_theme/
