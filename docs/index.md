@@ -1,10 +1,10 @@
-## :rocket: MkDocs ONS Theme
+## :rocket: ONS MkDocs Theme
 
 This is an Office for National Statistics (ONS) branded theme that can be used in conjunction with MkDocs.
 
 The purpose of this theme is to give users a way of generating documentation that is styled for ONS.
 
-This theme leans heavily on the Material for MkDocs that was created by Martin Donath. The original files can be accessed from [GitHub].
+This theme leans heavily on the Material for MkDocs that was created by Martin Donath. The original files can be accessed from [HERE](https://github.com/squidfunk/mkdocs-material).
 
 ## :file_folder: Documentation
 
@@ -52,13 +52,17 @@ repository into a subfolder of your project root which might be useful if you
 want to use the very latest version:
 
 ```
-git clone https://github.com/ONSdigital/ons-theme-for-mkdocs
+git clone https://github.com/ONSdigital/ons_mkdocs_theme
 ```
 
-Next, install the theme and its dependencies with:
+Next, install the theme and its dependencies with: Requires Python 3.11 and above
 
 ```
-pip install -e ons-theme-for-mkdocs
+conda create -n ons_mkdocs_theme python=3.11
+
+conda activate ons_mkdocs_theme
+
+pip install -e .
 ```
 
-[GitHub]: https://github.com/ONSdigital/ons-theme-for-mkdocs
+[GitHub]: https://github.com/ONSdigital/ons_mkdocs_theme
