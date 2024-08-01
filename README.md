@@ -1,54 +1,69 @@
 <p align="center" style="padding: 50px">
-    <img src="ons_mkdocs_theme/assets/images/logo.svg" width="320px">
+    <img src="https://onsdigital.github.io/ons_mkdocs_theme/assets/images/logo.svg" width="450px">
 </p>
 
-## :rocket: MkDocs ONS Theme
+## :race_car: Getting Started
 
-This is an Office for National Statistics (ONS) branded theme that can be used in conjunction with MkDocs.
+Setting up your documentation site to use this theme couldn't be easier. The quickest and easiest way to get up and running is to install with `pip`.
 
-The purpose of this theme is to give users a way of generating documentation that is styled for ONS.
+To be able to use this theme, you need to be using at least **Python v3.8**.
 
-This theme leans heavily on the Material for MkDocs that was created by Martin Donath. The original files can be accessed from [GitHub].
+### :computer: Installation
 
-## :file_folder: Documentation
+#### with pip
 
-You can access the [documentation] for this package and see the theme live.
+ONS MkDocs Theme is published as a Python package and can be installed with
+`pip`, ideally by using a [virtual environment][virtual environment]. Open up a terminal and install
+ONS MkDocs Theme with:
 
-## Getting Started
-
-ONS Theme for MkDocs is a powerful documentation framework on top of [MkDocs], a static site generator for project documentation. If you're familiar with Python, you can install ONS Theme for MkDocs with `pip`, the Python package manager.
-
-## :computer: Installation
-
-#### With PIP
-
-ONS Theme for MkDocs is published as a Python package and can be installed with `pip`, ideally by using a [virtual environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Open up a terminal and install ONS Theme for MkDocs with:
-
-```py
+```
 pip install ons_mkdocs_theme
 ```
 
-This will automatically install compatible versions of all dependencies: [MkDocs], [Markdown], [Pygments], and Python Markdown Extensions.
+This will automatically install compatible versions of all dependencies:
+[MkDocs], [Markdown], [Pygments] and [Python Markdown Extensions][Python Markdown Extensions].
 
-!!! tip  
-If you don't have prior experience with Python, we recommend reading [Using Python's pip to Manage Your Projects' Dependencies](https://facelessuser.github.io/pymdown-extensions/), which is a really good introduction on the mechanics of Python package management and helps you troubleshoot if you run into errors.
+!!! tip
 
-#### With Git
+    If you don't have prior experience with Python, we recommend reading
+    [Using Python's pip to Manage Your Projects' Dependencies], which is a
+    really good introduction on the mechanics of Python package management and
+    helps you troubleshoot if you run into errors.
 
-ONS Theme for MkDocs can be directly used from GitHub by cloning the repository into a subfolder of your project root.
+#### with git
 
-```sh
+ONS MkDocs Theme can be directly used from [GitHub] by cloning the
+repository into a subfolder of your project root folder.
+
+Simply create a folder called `ons_mkdocs_theme`. In the terminal, ensure you are in the root folder directory of your project and run the following command:
+
+```
+mkdir ons_mkdocs_theme
+```
+
+You then need to `cd` into the new directory with the following command:
+
+```
+cd ons_mkdocs_theme
+```
+
+To clone the theme files, run the following command:
+
+```
 git clone https://github.com/ONSdigital/ons_mkdocs_theme
 ```
 
 Next, install the theme and its dependencies with:
 
-```sh
-pip install -e ons-theme-for-mkdocs
+```
+pip install -e .
 ```
 
-[MkDocs]: https://www.mkdocs.org
-[GitHub]: https://github.com/squidfunk/mkdocs-material
-[Markdown]: https://www.markdownguide.org/getting-started/#:~:text=Markdown%20is%20a%20lightweight%20markup,than%20using%20a%20WYSIWYG%20editor.
+[GitHub]: https://github.com/ONSdigital/ons_mkdocs_theme
+[virtual environment]: https://realpython.com/what-is-pip/#using-pip-in-a-python-virtual-environment
+[semantic versioning]: https://semver.org/
+[MkDocs]: https://mkdocs.org
+[Markdown]: https://python-markdown.github.io/
 [Pygments]: https://pygments.org/
-[documentation]: https://onsdigital.github.io/ons_mkdocs_theme/
+[Python Markdown Extensions]: https://facelessuser.github.io/pymdown-extensions/
+[Using Python's pip to Manage Your Projects' Dependencies]: https://realpython.com/what-is-pip/
