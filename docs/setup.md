@@ -17,7 +17,7 @@ title: ONS MkDocs Theme - Setup
 
 Setting up your documentation site to use this theme couldn't be easier. The quickest and easiest way to get up and running is to install with `pip`.
 
-To be able to use this theme, you need to be using at least **Python v3.8**.
+To be able to use this theme, you need to be using at least **Python v3.11**.
 
 ### :computer: Installation
 
