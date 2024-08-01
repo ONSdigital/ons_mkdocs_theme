@@ -1,4 +1,17 @@
-# Creating your site
+---
+hide:
+  - navigation
+title: ONS MkDocs Theme - Creating Your Site
+---
+
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
+
+<style> .md-typeset h1 { display: none; } .md-main__inner { margin-top: 0px; } .md-content__button { display: none; } </style>
 
 After you've [installed] ONS MkDocs Theme, you can create your project
 documentation using the `mkdocs` executable. In the terminal, ensure you are in your project's root folder and run the following command:
