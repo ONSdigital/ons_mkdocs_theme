@@ -1,5 +1,5 @@
-site_name: ONS Theme for MkDocs
-repo_name: ons-docs-site
+site_name: ONS MkDocs Theme
+repo_name: ons_mkdocs_theme
 repo_url: https://github.com/ONSdigital/ons_mkdocs_theme
 docs_dir: docs
 
@@ -7,10 +7,6 @@ theme:
   name: material
   custom_dir: ons_mkdocs_theme
   features:
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
-    - content.code.annotate
     - content.code.copy
     - content.code.select
     - content.footnote.tooltips
@@ -28,11 +24,11 @@ theme:
   favicon: assets/images/favicon.ico
 
 nav:
-  - Getting started:
-    - Home: index.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
+  - Home: index.md
+  - Setup: setup.md
+  - Creating your site: creating-your-site.md
+  - Building your site: building-your-site.md
+  - Customisation: customisation.md
   - Contributing:
     - Reporting a bug: contributing/reporting-a-bug.md
     - Reporting a docs issue: contributing/reporting-a-docs-issue.md

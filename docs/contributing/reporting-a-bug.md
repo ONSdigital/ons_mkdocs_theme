@@ -1,15 +1,15 @@
 # Bug reports
 
-ONS Theme for MkDocs is an actively maintained project that we constantly strive
+ONS MkDocs Theme is an actively maintained project that we constantly strive
 to improve. With a project of this size and complexity, bugs may occur. If you
 think you have discovered a bug, you can help us by submitting an issue in our
 public [issue tracker], following this guide.
 
 [issue tracker]: https://github.com/ONSdigital/ons_mkdocs_theme/issues
 
-### Remove customizations
+### Remove customisations
 
-If you're using [customizations] like [additional CSS][additional CSS] or
+If you're using [customisations] like [additional CSS][additional CSS] or
 [theme extension][theme extension], please remove them from `mkdocs.yml` before reporting a bug.
 We can't offer official support for bugs that might hide in your overrides, so
 make sure to omit the following settings from `mkdocs.yml`:
@@ -19,20 +19,20 @@ make sure to omit the following settings from `mkdocs.yml`:
 - [`extra_css`][extra_css]
 
 If, after removing those settings, the bug is gone, the bug is likely caused by
-your customizations. A good idea is to add them back gradually to narrow down
+your customisations. A good idea is to add them back gradually to narrow down
 the root cause of the problem. If you did a major version upgrade, make sure you
 adjusted all partials you have overridden.
 
-!!! warning "Customizations mentioned in our documentation"
+!!! warning "customisations mentioned in our documentation"
 
-    A handful of the features ONS Theme for MkDocs offers can only be implemented
-    with customizations. If you find a bug in any of the customizations [that
+    A handful of the features ONS MkDocs Theme offers can only be implemented
+    with customisations. If you find a bug in any of the customisations [that
     our documentation explicitly mentions], you are, of course, encouraged to
     report it.
 
-[Customizations]: ../customization.md
-[additional CSS]: ../customization.md#additional-css
-[theme extension]: ../customization.md#extending-the-theme
+[customisations]: ../customisation.md
+[additional CSS]: ../customisation.md#additional-css
+[theme extension]: ../customisation.md#extending-the-theme
 [theme.custom_dir]: https://www.mkdocs.org/user-guide/configuration/#custom_dir
 [hooks]: https://www.mkdocs.org/user-guide/configuration/#hooks
 [extra_css]: https://www.mkdocs.org/user-guide/configuration/#extra_css
@@ -41,7 +41,7 @@ adjusted all partials you have overridden.
 ### Search for solutions
 
 At this stage, we know that the problem persists in the latest version and is
-not caused by any of your customizations. However, the problem might result from
+not caused by any of your customisations. However, the problem might result from
 a small typo or a syntactical error in a configuration file, e.g., `mkdocs.yml`.
 
 Now, before you go through the trouble of creating a bug report that is answered
@@ -112,7 +112,7 @@ can be inferred from the title.
 
 Before describing the bug, you can provide additional context for us to
 understand what you were trying to achieve. Explain the circumstances
-in which you're using ONS Theme for MkDocs, and what you _think_ might be
+in which you're using ONS MkDocs Theme, and what you _think_ might be
 relevant. Don't write about the bug here.
 
 > **Why this might be helpful**: some errors only manifest in specific settings,
@@ -123,7 +123,7 @@ relevant. Don't write about the bug here.
 
 Now, to the bug you want to report. Provide a clear, focused, specific, and
 concise summary of the bug you encountered. Explain why you think this is a bug
-that should be reported to ONS Theme for MkDocs, and not to one of its
+that should be reported to ONS MkDocs Theme, and not to one of its
 dependencies.[^3] Adhere to the following principles:
 
 [^3]:
@@ -132,7 +132,7 @@ dependencies.[^3] Adhere to the following principles:
     [Python Markdown Extensions] or third-party plugins. A good rule of thumb is
     to change the [`theme.name`][theme.name] to `mkdocs` or `readthedocs` and
     check if the problem persists. If it does, the problem is likely not
-    related to ONS Theme for MkDocs and should be reported upstream. When in
+    related to ONS MkDocs Theme and should be reported upstream. When in
     doubt, use our [discussion board] to ask for help.
 
 - **Explain the <u>what</u>, not the <u>how</u>** – don't explain
