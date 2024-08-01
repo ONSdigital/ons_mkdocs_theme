@@ -796,7 +796,11 @@ body {
 
 .md-ellipsis {
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
+}
+
+.md-headder__ellipsis, .md-header__topic {
+    font-weight: 600;
 }
 
 .md-toggle {
@@ -4850,11 +4854,11 @@ html .md-typeset .footnote-ref {
 }
 
 .md-typeset .emojione, .md-typeset .gemoji, .md-typeset .twemoji {
-    --md-icon-size: 0.7em;
+    --md-icon-size: 1em;
     display: inline-flex;
     height: var(--md-icon-size);
     vertical-align: middle;
-    padding-bottom: .1em;
+    margin-bottom: .5em;
 }
 
 .md-typeset .emojione svg, .md-typeset .gemoji svg, .md-typeset .twemoji svg {
