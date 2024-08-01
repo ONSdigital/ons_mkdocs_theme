@@ -1,5 +1,5 @@
 <p align="center" style="padding: 50px">
-    <img src="ons_mkdocs_theme/assets/images/logo.svg" width="320px">
+    <img src="https://onsdigital.github.io/ons_mkdocs_theme/assets/images/logo.svg" width="450px">
 </p>
 
 ## :rocket: MkDocs ONS Theme
@@ -16,13 +16,13 @@ You can access the [documentation] for this package and see the theme live.
 
 ## Getting Started
 
-ONS Theme for MkDocs is a powerful documentation framework on top of [MkDocs], a static site generator for project documentation. If you're familiar with Python, you can install ONS Theme for MkDocs with `pip`, the Python package manager.
+ONS MkDocs Theme is a powerful documentation framework on top of [MkDocs], a static site generator for project documentation. If you're familiar with Python, you can install ONS MkDocs Theme with `pip`, the Python package manager.
 
 ## :computer: Installation
 
 #### With PIP
 
-ONS Theme for MkDocs is published as a Python package and can be installed with `pip`, ideally by using a [virtual environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Open up a terminal and install ONS Theme for MkDocs with:
+ONS MkDocs Theme is published as a Python package and can be installed with `pip`, ideally by using a [virtual environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Open up a terminal and install ONS MkDocs Theme with:
 
 ```py
 pip install ons_mkdocs_theme
@@ -35,7 +35,7 @@ If you don't have prior experience with Python, we recommend reading [Using Pyth
 
 #### With Git
 
-ONS Theme for MkDocs can be directly used from GitHub by cloning the repository into a subfolder of your project root.
+ONS MkDocs Theme can be directly used from GitHub by cloning the repository into a subfolder of your project root.
 
 ```sh
 git clone https://github.com/ONSdigital/ons_mkdocs_theme
