@@ -1,5 +1,5 @@
-site_name: ONS Theme for MkDocs
-repo_name: ons-docs-site
+site_name: ONS MkDocs Theme
+repo_name: ons_mkdocs_theme
 repo_url: https://github.com/ONSdigital/ons_mkdocs_theme
 docs_dir: docs
 
