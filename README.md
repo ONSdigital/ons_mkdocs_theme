@@ -2,7 +2,7 @@
     <img src="https://onsdigital.github.io/ons_mkdocs_theme/assets/images/logo.svg" width="450px">
 </p>
 
-## :race_car: Getting Started
+## :red_car: Getting Started
 
 Setting up your documentation site to use this theme couldn't be easier. The quickest and easiest way to get up and running is to install with `pip`.
 
