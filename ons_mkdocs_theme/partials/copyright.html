@@ -2,7 +2,11 @@
 <div class="md-copyright">
   {% if config.copyright %}
   <div class="md-copyright__highlight">
-    <img src="/assets/images/govuk-crest.svg" width="60px" height="60px" />
+    <img
+      src="{{ base_url }}/assets/images/govuk-crest.svg"
+      width="60px"
+      height="60px"
+    />
     <p>{{ config.copyright }}</p>
   </div>
   {% endif %}
