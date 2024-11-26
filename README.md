@@ -1,5 +1,5 @@
 <p align="center" style="padding: 50px">
-    <img src="https://onsdigital.github.io/ons_mkdocs_theme/assets/images/logo.svg" width="450px">
+    <img src="ons_mkdocs_theme/assets/images/logo.svg" width="450px">
 </p>
 
 ## :red_car: Getting Started
