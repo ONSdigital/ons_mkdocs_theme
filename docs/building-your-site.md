@@ -82,7 +82,7 @@ If you want to use a build process other than Jekyll or you do not want a dedica
 
 To configure your site to publish with GitHub Actions:
 
-1. On GitHub, navigate to your site's repository.
+1. On GitHub, navigate to your site's repository
 
 2. Under your repository name, click Settings. If you cannot see the "Settings" tab, select the dropdown menu, then click Settings.
 
