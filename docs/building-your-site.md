@@ -82,7 +82,7 @@ If you want to use a build process other than Jekyll or you do not want a dedica
 
 To configure your site to publish with GitHub Actions:
 
-1. On GitHub, navigate to your site's repository.
+1. On GitHub, navigate to your site's repository
 
 2. Under your repository name, click Settings. If you cannot see the "Settings" tab, select the dropdown menu, then click Settings.
 
@@ -161,8 +161,8 @@ For information about how to troubleshoot your GitHub Actions workflow, see ["Mo
 
 [GitHub Pages]: publishing-your-site.md#github-pages
 [GitLab pages]: publishing-your-site.md#gitlab-pages
-[viewing_workflow_history]: (https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/viewing-workflow-run-history)
-[rerunning_jobs]: (https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs)
+[viewing_workflow_history]: https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/viewing-workflow-run-history
+[rerunning_jobs]: https://docs.github.com/en/actions/managing-workflow-runs/re-running-workflows-and-jobs
 [troubleshooting_github_actions]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites#missing-docs-folder
 [github_actions]: https://docs.github.com/en/actions
 [managing_github_actions]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository
