@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.5] - 2025-07-23
+### Added
+- Corrected the package requirements
+
 ## [1.2.4] - 2025-07-23
 ### Added
 - Corrected the Python version to accept 3.12
