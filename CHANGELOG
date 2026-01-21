@@ -2,9 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.2.5] - 2025-07-23
+## [1.2.5] - 2026-01-21
 ### Added
-- Corrected the package requirements
+- Corrected the package requirements for dependenabot alerts
+- Added a security policy document to the repo
 
 ## [1.2.4] - 2025-07-23
 ### Added
