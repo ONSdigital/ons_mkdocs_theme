@@ -1,4 +1,6 @@
 name: Deploy to PyPI and GitHub Releases
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
