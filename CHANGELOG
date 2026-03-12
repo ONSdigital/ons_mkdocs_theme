@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.6] - 2026-03-12
+### Added
+- Corrected the package requirements for dependenabot alerts
+
 ## [1.2.5] - 2026-01-21
 ### Added
 - Corrected the package requirements for dependenabot alerts
