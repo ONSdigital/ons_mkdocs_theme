@@ -2778,7 +2778,6 @@ GlobSync.prototype._processReaddir = function (prefix, read, abs, remain, index,
 
 
 GlobSync.prototype._emitMatch = function (index, e) {
-  var abs = this._makeAbs(e)
   if (this.mark)
     e = this._mark(e)
 
