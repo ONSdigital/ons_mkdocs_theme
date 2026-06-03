@@ -61,7 +61,6 @@ module.exports = function() {
 var LEFT = 0;
 var RIGHT = 1;
 var path = require("path");
-var glob = require("glob");
 
 var WordcutDict = {
 
