@@ -45,7 +45,7 @@
             this.chartype_.push([regexp, patterns[i]]);
           }
 
-          this.BIAS__ = -332
+          this.BIAS__ = -332;
           this.BC1__ = {"HH":6,"II":2461,"KH":406,"OH":-1378};
           this.BC2__ = {"AA":-3267,"AI":2744,"AN":-878,"HH":-4070,"HM":-1711,"HN":4012,"HO":3761,"IA":1327,"IH":-1184,"II":-1332,"IK":1721,"IO":5492,"KI":3831,"KK":-8741,"MH":-3132,"MK":3334,"OO":-2920};
           this.BC3__ = {"HH":996,"HI":626,"HK":-721,"HN":-1307,"HO":-836,"IH":-301,"KK":2762,"MK":1079,"MM":4034,"OA":-1652,"OH":266};
@@ -115,7 +115,7 @@
           var o = input.split("");
           for (i = 0; i < o.length; ++i) {
             seg.push(o[i]);
-            ctype.push(this.ctype_(o[i]))
+            ctype.push(this.ctype_(o[i]));
           }
           seg.push("E1");
           seg.push("E2");
