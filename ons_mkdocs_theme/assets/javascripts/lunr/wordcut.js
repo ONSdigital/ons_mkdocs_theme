@@ -2573,7 +2573,6 @@ globSync.GlobSync = GlobSync
 
 var fs = require('fs')
 var minimatch = require('minimatch')
-var Minimatch = minimatch.Minimatch
 var Glob = require('./glob.js').Glob
 var util = require('util')
 var path = require('path')
