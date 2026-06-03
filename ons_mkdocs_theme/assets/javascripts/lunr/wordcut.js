@@ -2239,7 +2239,6 @@
           remain.shift()
           for (var i = 0; i < len; i++) {
             var e = matchedEntries[i]
-            var newPattern
             if (prefix) {
               if (prefix !== '/')
                 e = prefix + '/' + e
