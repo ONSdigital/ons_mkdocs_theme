@@ -115,7 +115,7 @@
           var o = input.split("");
           for (i = 0; i < o.length; ++i) {
             seg.push(o[i]);
-            ctype.push(this.ctype_(o[i]))
+            ctype.push(this.ctype_(o[i]));
           }
           seg.push("E1");
           seg.push("E2");
