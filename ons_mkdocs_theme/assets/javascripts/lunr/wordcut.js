@@ -2329,7 +2329,6 @@ Glob.prototype._readdir = function (abs, inGlobStar, cb) {
       return cb(null, c)
   }
 
-  var self = this
   fs.readdir(abs, readdirCb(this, abs, cb))
 }
 
