@@ -484,8 +484,7 @@ var ThaiRules = [Rule0, PartRule];
 module.exports = ThaiRules;
 
 },{}],7:[function(require,module,exports){
-var sys = require("sys")
-  , WordcutDict = require("./dict")
+var WordcutDict = require("./dict")
   , WordcutCore = require("./wordcut_core")
   , PathInfoBuilder = require("./path_info_builder")
   , PathSelector = require("./path_selector")
