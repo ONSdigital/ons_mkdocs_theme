@@ -2810,7 +2810,6 @@
 
           var entries
           var lstat
-          var stat
           try {
             lstat = fs.lstatSync(abs)
           } catch (er) {
