@@ -4438,6 +4438,24 @@ GlobSync.prototype._readdir = function (abs, inGlobStar) {
           cachedSetTimeout = setTimeout;
           return setTimeout(fun, 0);
         }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ());
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
         try {
           // when when somebody has screwed with setTimeout but no I.E. maddness
           return cachedSetTimeout(fun, 0);
