@@ -1120,10 +1120,6 @@ function expandTop(str) {
   return expand(escapeBraces(str), true).map(unescapeBraces);
 }
 
-function identity(e) {
-  return e;
-}
-
 function embrace(str) {
   return '{' + str + '}';
 }
