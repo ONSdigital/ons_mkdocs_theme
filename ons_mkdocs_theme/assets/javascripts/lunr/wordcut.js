@@ -302,9 +302,48 @@
             isError: false,
             tag: "SINSYM",
             w: 1,
-            type: "SINSYM"
-          };
+            type: "SINSYM"};
+  }
+}
+
+
+var LatinRules = [WordRule, SpaceRule, SingleSymbolRule, NumberRule];
+
+module.exports = LatinRules;
+
+},{}],4:[function(require,module,exports){
+var _ = require("underscore");
+require("./wordcut_core");
+var PathInfoBuilder = {
+
+  /*
+    buildByPartAcceptors: function(path, acceptors, i) {
+    var 
+    var genInfos = partAcceptors.reduce(function(genInfos, acceptor) {
+      
+    }, []);
+    
+    return genInfos;
+  } 
+  */
+
+  buildByAcceptors: function(path, finalAcceptors, i) {
+    var self = this;
+    var infos = finalAcceptors.map(function(acceptor) {
+      var p = i - acceptor.strOffset + 1
+        , _info = path[p];            
+      
+      var info = {p: p, 
+                  mw: _info.mw + (acceptor.mw === undefined ? 0 : acceptor.mw),
+                  w: acceptor.w + _info.w,
+                  unk: (acceptor.unk ? acceptor.unk : 0) + _info.unk, 
+                  type: acceptor.type};
+
+      if (acceptor.type == "PART") {
+        for(var j = p + 1; j <= i; j++) {
+          path[j].merge = p;
         }
+        info.merge = p;
       }
 
 
