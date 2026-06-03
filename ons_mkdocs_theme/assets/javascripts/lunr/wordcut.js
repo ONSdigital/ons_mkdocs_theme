@@ -2509,7 +2509,6 @@ Glob.prototype._stat = function (f, cb) {
     // if we know it exists, but not what it is.
   }
 
-  var exists
   var stat = this.statCache[abs]
   if (stat !== undefined) {
     if (stat === false)
