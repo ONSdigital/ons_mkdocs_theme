@@ -1856,7 +1856,6 @@ module.exports = glob
 
 var fs = require('fs')
 var minimatch = require('minimatch')
-var Minimatch = minimatch.Minimatch
 var inherits = require('inherits')
 var EE = require('events').EventEmitter
 var path = require('path')
