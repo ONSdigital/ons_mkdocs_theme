@@ -2827,8 +2827,6 @@ GlobSync.prototype._readdirInGlobStar = function (abs) {
 }
 
 GlobSync.prototype._readdir = function (abs, inGlobStar) {
-  var entries
-
   if (inGlobStar && !ownProp(this.symlinks, abs))
     return this._readdirInGlobStar(abs)
 
