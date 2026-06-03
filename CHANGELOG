@@ -2,21 +2,40 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2026-06-03
+
+### Changed
+
+- Unpinned requirements in favour of actual base requirements (#62)
+
+### Fixed
+
+- Fix for Semicolon insertion (#56, #57, #58, #59, #60, #61)
+- Fix for Unused variable, import, function or class (#34, #35, #36, #37, #38, #39, #40, #41, #42, #43, #44, #45, #46, #47, #48, #49, #50, #51, #52, #53, #54, #55)
+
 ## [1.2.6] - 2026-03-12
+
 ### Added
+
 - Corrected the package requirements for dependenabot alerts
 
 ## [1.2.5] - 2026-01-21
+
 ### Added
+
 - Corrected the package requirements for dependenabot alerts
 - Added a security policy document to the repo
 
 ## [1.2.4] - 2025-07-23
+
 ### Added
+
 - Corrected the Python version to accept 3.12
 
 ## [1.2.3] - 2025-07-18
+
 ### Added
+
 - Support for Python 3.10
 
 ---
