@@ -2581,7 +2581,6 @@ var assert = require('assert')
 var isAbsolute = require('path-is-absolute')
 var common = require('./common.js')
 var alphasort = common.alphasort
-var alphasorti = common.alphasorti
 var setopts = common.setopts
 var ownProp = common.ownProp
 var childrenIgnored = common.childrenIgnored
