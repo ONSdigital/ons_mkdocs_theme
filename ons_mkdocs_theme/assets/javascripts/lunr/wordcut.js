@@ -2989,7 +2989,6 @@ GlobSync.prototype._stat = function (f) {
     // if we know it exists, but not what it is.
   }
 
-  var exists
   var stat = this.statCache[abs]
   if (!stat) {
     var lstat
