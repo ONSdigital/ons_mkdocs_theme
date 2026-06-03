@@ -38,7 +38,7 @@
             "[ァ-ヴーｱ-ﾝﾞｰ]":"K",
             "[a-zA-Zａ-ｚＡ-Ｚ]":"A",
             "[0-9０-９]":"N"
-          }
+          };
           this.chartype_ = [];
           for (var i in patterns) {
             var regexp = new RegExp(i);
