@@ -2805,7 +2805,6 @@ GlobSync.prototype._readdirInGlobStar = function (abs) {
 
   var entries
   var lstat
-  var stat
   try {
     lstat = fs.lstatSync(abs)
   } catch (er) {
