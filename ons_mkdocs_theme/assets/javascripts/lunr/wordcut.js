@@ -304,8 +304,8 @@ var LatinRules = [WordRule, SpaceRule, SingleSymbolRule, NumberRule];
 module.exports = LatinRules;
 
 },{}],4:[function(require,module,exports){
-var _ = require("underscore")
-  , WordcutCore = require("./wordcut_core");
+var _ = require("underscore");
+require("./wordcut_core");
 var PathInfoBuilder = {
 
   /*
