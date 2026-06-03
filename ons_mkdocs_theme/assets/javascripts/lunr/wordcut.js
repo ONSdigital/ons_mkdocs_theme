@@ -320,7 +320,6 @@ var PathInfoBuilder = {
   */
 
   buildByAcceptors: function(path, finalAcceptors, i) {
-    var self = this;
     var infos = finalAcceptors.map(function(acceptor) {
       var p = i - acceptor.strOffset + 1
         , _info = path[p];            
