@@ -2553,22 +2553,9 @@ var PathInfoBuilder = {
             if (needDir && c === 'FILE')
               return cb()
 
-            // otherwise we have to stat, because maybe c=true
-            // if we know it exists, but not what it is.
-          }
-
-          var stat = this.statCache[abs]
-          if (stat !== undefined) {
-            if (stat === false)
-              return cb(null, stat)
-            else {
-              var type = stat.isDirectory() ? 'DIR' : 'FILE'
-              if (needDir && type === 'FILE')
-                return cb()
-              else
-                return cb(null, type, stat)
-            }
-          }
+GlobSync.prototype._readdir = function (abs, inGlobStar) {
+  if (inGlobStar && !ownProp(this.symlinks, abs))
+    return this._readdirInGlobStar(abs)
 
           var self = this
           var statcb = inflight('stat\0' + abs, lstatcb_)
