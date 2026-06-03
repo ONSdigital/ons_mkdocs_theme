@@ -2440,11 +2440,33 @@ var PathInfoBuilder = {
           if (!entries)
             return cb()
 
-          // test without the globstar, and with every child both below
-          // and replacing the globstar.
-          var remainWithoutGlobStar = remain.slice(1)
-          var gspref = prefix ? [prefix] : []
-          var noGlobStar = gspref.concat(remainWithoutGlobStar)
+}).call(this,require('_process'))
+},{"./common.js":15,"./sync.js":17,"_process":24,"assert":9,"events":14,"fs":12,"inflight":18,"inherits":19,"minimatch":20,"once":21,"path":22,"path-is-absolute":23,"util":28}],17:[function(require,module,exports){
+(function (process){
+module.exports = globSync
+globSync.GlobSync = GlobSync
+
+var fs = require('fs')
+var minimatch = require('minimatch')
+var Minimatch = minimatch.Minimatch
+var Glob = require('./glob.js').Glob
+var util = require('util')
+var path = require('path')
+var assert = require('assert')
+var isAbsolute = require('path-is-absolute')
+var common = require('./common.js')
+var alphasort = common.alphasort
+var setopts = common.setopts
+var ownProp = common.ownProp
+var childrenIgnored = common.childrenIgnored
+
+function globSync (pattern, options) {
+  if (typeof options === 'function' || arguments.length === 3)
+    throw new TypeError('callback provided to sync glob\n'+
+                        'See: https://github.com/isaacs/node-glob/issues/167')
+
+  return new GlobSync(pattern, options).found
+}
 
           // the noGlobStar pattern exits the inGlobStar state
           this._process(noGlobStar, index, false, cb)
